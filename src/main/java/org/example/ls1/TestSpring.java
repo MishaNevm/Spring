@@ -1,5 +1,6 @@
-package org.example;
+package org.example.ls1;
 
+import org.example.ls1.TestBean;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
