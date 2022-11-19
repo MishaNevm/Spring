@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Ls3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,8 +42,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.22873563"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.22873563",
+    "spring.configuration.checksum": "f92dec848fd528d691f61044df4cbc13"
   }
 }]]></component>
   <component name="RunManager">
@@ -70,6 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668536216370</updated>
       <workItem from="1668536219340" duration="339000" />
+      <workItem from="1668704542532" duration="17000" />
+      <workItem from="1668704613354" duration="321000" />
     </task>
     <servers />
   </component>
