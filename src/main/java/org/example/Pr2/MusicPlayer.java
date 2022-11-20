@@ -1,12 +1,33 @@
 package org.example.Pr2;
 
-public class MusicPlayer {
-    Music music;
+import java.util.List;
 
-    public MusicPlayer(Music music) {
-        this.music = music;
+public class MusicPlayer {
+    int volume;
+    String name;
+
+    public void setName(String name) {
+        this.name = name;
     }
-    public void playSong () {
-        System.out.println(music.getSong());
+
+    List<Music> list;
+
+    public void setList(List<Music> list) {
+        this.list = list;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public void playSong() {
+        if (list.isEmpty()) {
+            System.out.println("Music list is empty");
+        } else {
+            System.out.println("play list name: " + name);
+            System.out.println("volume " + volume);
+            list.forEach(a -> System.out.println(a.getSong()));
+        }
+
     }
 }
