@@ -11,7 +11,7 @@
     </bean>
 
     <bean id="musicPlayer"
-          class="org.example.Ls3.MusicPlayer">
+          class="org.example.Ls3.MusicPlayer" scope="prototype">
         <property name="music" ref="musicBean"/>
         <property name="name" value="${MusicPlayer.name}"/>
         <property name="volume" value="${MusicPlayer.volume}"/>
