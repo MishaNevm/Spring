@@ -2,23 +2,19 @@ package org.example.pr7;
 
 public class RapMusic {
     private String name;
-    private int id;
+    private final int id;
     private static int ids = 1;
 
-    public String getMusic() {
-        return "Yo yo yo it's a rapchik";
-    }
-    public void initMethod () {
-        id = ids;
-        ids++;
-        System.out.println("Object " + id + " create");
-    }
-    public void destroyMethod () {
-        System.out.println("Спасибо за прослушивание");
+    private RapMusic(int id) {
+        this.id = id;
     }
 
-    public int getId() {
-        return id;
+    public static RapMusic create() {
+        return new RapMusic(ids++);
+    }
+
+    public void initMethod() {
+        System.out.println("Object " + id + " create");
     }
 
     public String getName() {
@@ -27,5 +23,9 @@ public class RapMusic {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getId() {
+        return id;
     }
 }

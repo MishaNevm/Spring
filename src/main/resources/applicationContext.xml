@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:property-placeholder location="classpath:rapMusicParametrs.properties"/>
-    <bean id="musicBean" class="org.example.pr7.RapMusic" init-method="initMethod" destroy-method="destroyMethod">
+    <bean id="musicBean" class="org.example.pr7.RapMusic" factory-method="create" init-method="initMethod" scope="prototype">
         <property name="name" value="${RapMusic.name}"/>
     </bean>
 </beans>

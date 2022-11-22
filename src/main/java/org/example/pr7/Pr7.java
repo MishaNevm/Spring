@@ -11,7 +11,7 @@ public class Pr7 {
         List<RapMusic> rapMusicList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             rapMusicList.add(context.getBean("musicBean", RapMusic.class));
-            System.out.println(rapMusicList.get(0).getId());
+            System.out.println(rapMusicList.get(i).getId());
         }
         context.close();
     }
