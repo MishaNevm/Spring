@@ -4,14 +4,5 @@
        xmlns:cotext="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <cotext:property-placeholder location="classpath:musicPlayers.properties"/>
-    <bean id="musicBean" class="org.example.Ls3.RapMusic" init-method="doMyInit"
-          destroy-method="doMyDestroy" factory-method="createRapMusic"/>
-
-<!--    <bean id="musicPlayer"-->
-<!--          class="org.example.Ls3.MusicPlayer" scope="prototype">-->
-<!--        <property name="music" ref="musicBean"/>-->
-<!--        <property name="name" value="${MusicPlayer.name}"/>-->
-<!--        <property name="volume" value="${MusicPlayer.volume}"/>-->
-<!--    </bean>-->
+    <cotext:component-scan base-package="org.example.Ls3"/>
 </beans>

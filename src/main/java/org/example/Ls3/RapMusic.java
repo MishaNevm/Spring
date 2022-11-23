@@ -1,7 +1,9 @@
 package org.example.Ls3;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class RapMusic implements Music{
-    private RapMusic() {}
     @Override
     public String getSong() {
         return "Yoyoyo it's a RAPchik";
@@ -12,8 +14,5 @@ public class RapMusic implements Music{
     }
     public void doMyDestroy () {
         System.out.println("Object destory");
-    }
-    public static RapMusic createRapMusic() {
-        return new RapMusic();
     }
 }
