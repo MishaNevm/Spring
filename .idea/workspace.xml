@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="" />
+    <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/MusicTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/ClassicMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/ClassicMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Ls3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Ls8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RapMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RapMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RockMusic.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +26,7 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -46,9 +57,9 @@
     &quot;spring.configuration.checksum&quot;: &quot;f92dec848fd528d691f61044df4cbc13&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ls3">
-    <configuration name="Ls3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Ls3.Ls3" />
+  <component name="RunManager" selected="Application.Ls8">
+    <configuration name="Ls8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ls3.Ls8" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ls3" />
+        <item itemvalue="Application.Ls8" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

@@ -1,33 +1,28 @@
 package org.example.Ls3;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+import java.util.*;
+
+@Component
 public class MusicPlayer {
-    private Music music;
-    private int volume;
-    private String name;
 
-    public int getVolume() {
-        return volume;
+    private final Map<MusicTypes, Music> musicList;
+    Random random;
+
+    @Autowired
+    public MusicPlayer(@Qualifier("classicMusic") Music classicMusic, @Qualifier("rapMusic") Music rapMusic,
+                       @Qualifier("rockMusic") Music rockMusic) {
+        musicList = new HashMap<>();
+        random = new Random();
+        musicList.put(MusicTypes.RAP, rapMusic);
+        musicList.put(MusicTypes.CLASSICAL, classicMusic);
+        musicList.put(MusicTypes.ROCK, rockMusic);
     }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
+    public void playRandomSong (MusicTypes mp) {
+        String [] songs = musicList.get(mp).getSong();
+        System.out.println(songs[random.nextInt(songs.length)]);
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setMusic(Music music) {
-        this.music = music;
-    }
-
-    public void playMusic () {
-        System.out.println(music.getSong());
-    }
-
-
 }
