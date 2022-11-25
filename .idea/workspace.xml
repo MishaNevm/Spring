@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pr11/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pr11/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pr11/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pr11/MusicTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pr11/Pr11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pr11/RapMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pr11/RockMusic.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,10 +52,11 @@
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.22873563"
+    "project.structure.side.proportion": "0.22873563",
+    "spring.configuration.checksum": "f92dec848fd528d691f61044df4cbc13"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Pr11">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Spring" />
@@ -55,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Pr11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pr11.Pr11" />
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pr11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pr11" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -70,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668536216370</updated>
       <workItem from="1668536219340" duration="339000" />
+      <workItem from="1669403710936" duration="3613000" />
     </task>
     <servers />
   </component>
