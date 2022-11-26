@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayers.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/MusicTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/ClassicMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/ClassicMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Ls3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/Ls3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RapMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RapMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ls3/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +26,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Spring",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -92,6 +99,9 @@
       <workItem from="1668704542532" duration="17000" />
       <workItem from="1668704613354" duration="321000" />
       <workItem from="1668954742131" duration="4267000" />
+      <workItem from="1669461038514" duration="112000" />
+      <workItem from="1669461201525" duration="36000" />
+      <workItem from="1669467159378" duration="3049000" />
     </task>
     <servers />
   </component>

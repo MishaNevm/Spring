@@ -5,10 +5,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Ls3 {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        MusicPlayer musicPlayer = context.getBean("musicPlayer",MusicPlayer.class);
-        musicPlayer.playMusic();
-        System.out.println(musicPlayer.getName());
-        System.out.println(musicPlayer.getVolume());
+        Computer computer1 = context.getBean("computer", Computer.class);
+        Computer computer2 = context.getBean("computer", Computer.class);
+        System.out.println(computer1 == computer2);
         context.close();
     }
 }
