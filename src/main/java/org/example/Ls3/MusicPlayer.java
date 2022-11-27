@@ -1,31 +1,41 @@
 package org.example.Ls3;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+@Component
+@Scope("prototype")
 public class MusicPlayer {
-    private Music music;
+    private final List<Music> music;
+    @Value("${MusicPlayer.volume}")
     private int volume;
+    @Value("${MusicPlayer.name}")
     private String name;
 
-    public int getVolume() {
-        return volume;
+    @Autowired
+    public MusicPlayer(Music ... musics) {
+        music = new ArrayList<>(Arrays.asList(musics));
     }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
+    @PostConstruct
+    public void initMethod () {
+        System.out.println("Music player created");
     }
-
-    public String getName() {
-        return name;
+    @PreDestroy
+    public void destroyMethod () {
+        System.out.println("Music player destroyed");
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setMusic(Music music) {
-        this.music = music;
-    }
-
-    public void playMusic () {
-        System.out.println(music.getSong());
+    public void playSongs () {
+        System.out.println(name);
+        System.out.println(volume);
+        music.forEach(System.out::println);
     }
 }
