@@ -1,4 +1,4 @@
-package org.example.ls13.config;
+package org.example.ls14.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

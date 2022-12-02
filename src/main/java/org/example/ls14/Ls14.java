@@ -1,10 +1,10 @@
-package org.example.ls13;
+package org.example.ls14;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class Ls13 {
+public class Ls14 {
 
     @GetMapping("/hello-world")
     public String sayHello () {

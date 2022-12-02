@@ -10,13 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ls13/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ls13/config/SpringMVCDispatcherServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls12/Ls12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls13/Ls13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls13/Ls13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls14/Ls14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls13/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls14/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls13/config/SpringMVCDispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls14/config/SpringMVCDispatcherServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +182,8 @@
       <workItem from="1669831940903" duration="790000" />
       <workItem from="1669917263875" duration="1809000" />
       <workItem from="1669919166273" duration="1055000" />
+      <workItem from="1669971443086" duration="130000" />
+      <workItem from="1670001489020" duration="1209000" />
     </task>
     <servers />
   </component>
