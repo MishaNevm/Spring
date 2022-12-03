@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/master/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ls16/controllers/Ls16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/master/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls16/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/master/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls16/config/SpringConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

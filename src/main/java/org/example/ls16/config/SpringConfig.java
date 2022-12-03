@@ -1,4 +1,4 @@
-package org.example.master.config;
+package org.example.ls16.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -13,7 +13,7 @@ import org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan("org.example")
+@ComponentScan("org.example.ls16")
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
     private final ApplicationContext applicationContext;
