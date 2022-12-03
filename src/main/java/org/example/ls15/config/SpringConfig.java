@@ -1,4 +1,4 @@
-package org.example.ls14.config;
+package org.example.ls15.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -13,7 +13,7 @@ import org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring6.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan("org.example.ls14")
+@ComponentScan("org.example.ls15")
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
     private final ApplicationContext applicationContext;
@@ -25,11 +25,11 @@ public class SpringConfig implements WebMvcConfigurer {
 
     @Bean
     public SpringResourceTemplateResolver templateResolver() {
-        SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
-        templateResolver.setApplicationContext(applicationContext);
-        templateResolver.setPrefix("\\WEB-INF\\views\\");
-        templateResolver.setSuffix(".html");
-        return templateResolver;
+        SpringResourceTemplateResolver springResourceTemplateResolver = new SpringResourceTemplateResolver();
+        springResourceTemplateResolver.setApplicationContext(applicationContext);
+        springResourceTemplateResolver.setPrefix("/WEB-INF/views/");
+        springResourceTemplateResolver.setSuffix(".html");
+        return springResourceTemplateResolver;
     }
 
     @Bean

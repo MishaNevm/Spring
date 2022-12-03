@@ -1,8 +1,8 @@
-package org.example.ls14.config;
+package org.example.ls15.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class SpringMVCDispatcherServlet extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class MySprginMvcApplictionServlet extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return null;
