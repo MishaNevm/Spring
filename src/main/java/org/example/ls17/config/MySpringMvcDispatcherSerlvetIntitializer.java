@@ -1,4 +1,4 @@
-package org.example.ls16.config;
+package org.example.ls17.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
