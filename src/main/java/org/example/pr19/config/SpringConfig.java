@@ -1,4 +1,4 @@
-package org.example.master.config;
+package org.example.pr19.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
