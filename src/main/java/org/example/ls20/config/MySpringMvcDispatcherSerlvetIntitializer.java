@@ -1,4 +1,4 @@
-package org.example.master.config;
+package org.example.ls20.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
