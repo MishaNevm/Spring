@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pidor</title>
+</head>
+<body>
+<h1>PIDOOOOORS LIST:</h1>
+<div th:each="pidor : ${pidors}">
+  <a th:href="@{/pidors/pidor{id}(id=${pidor.getId()})}" th:text="${pidor.getName()}">VALUE</a>
+</div>
+<a href="/person">Back to normal people</a>
+</body>
+</html>

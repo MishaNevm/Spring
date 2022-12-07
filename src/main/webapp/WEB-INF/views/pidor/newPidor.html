@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>new PIDOOOOOOOOR</title>
+</head>
+<body>
+<form th:method="POST" th:action="@{/pidors}" th:object="pidor">
+    <div>
+    <label for="name">Pidor name: </label>
+    <input type="text" th:field="*{name}" id="name">
+    <br/>
+    <label for="prostupok">Whot the Pidor did?? </label>
+    <input type="text" th:field="*{prostupok}" id="prostupok">
+    <br/>
+    <label for="prostupokRating">Rating pidor: </label>
+    <input type="number" th:field="*{prosupokRating}" id="prostupokRating">
+    <br/>
+    <input type="submit" value="Add pidor"/>
+    </div>
+</form>
+</body>
+</html>
