@@ -5,8 +5,7 @@
     <title>new PIDOOOOOOOOR</title>
 </head>
 <body>
-<form th:method="POST" th:action="@{/pidors}" th:object="pidor">
-    <div>
+<form th:method="POST" th:action="@{/pidors}" th:object="${pidor}">
     <label for="name">Pidor name: </label>
     <input type="text" th:field="*{name}" id="name">
     <br/>
@@ -14,10 +13,9 @@
     <input type="text" th:field="*{prostupok}" id="prostupok">
     <br/>
     <label for="prostupokRating">Rating pidor: </label>
-    <input type="number" th:field="*{prosupokRating}" id="prostupokRating">
+    <input type="text" th:field="*{prostupokRating}" id="prostupokRating">
     <br/>
     <input type="submit" value="Add pidor"/>
-    </div>
 </form>
 </body>
 </html>

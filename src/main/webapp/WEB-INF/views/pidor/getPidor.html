@@ -5,10 +5,12 @@
     <title>Pidor</title>
 </head>
 <body>
-<p th:text="pidor.getName()">VALUE</p>
-<p th:text="pidor.getProstupok()">VALUE</p>
-<p th:text="pidor.getProstupokRating">VALUE</p>
-<p th:text="pidor.getId()"></p>
+<p th:text="${pidor.getName()}">VALUE</p>
+<p th:text="${pidor.getProstupok()}">VALUE</p>
+<p th:text="${pidor.getProstupokRating}">VALUE</p>
+<p th:text="${pidor.getId()}"></p>
+<a href="/pidors/newpidor">Add pidor</a>
+<br/>
 <a href="/pidors">Back</a>
 </body>
 </html>

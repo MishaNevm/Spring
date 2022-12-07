@@ -9,6 +9,8 @@
 <div th:each="pidor : ${pidors}">
   <a th:href="@{/pidors/pidor{id}(id=${pidor.getId()})}" th:text="${pidor.getName()}">VALUE</a>
 </div>
+<a href="/pidors/newpidor">Add pidor</a>
+<br/>
 <a href="/person">Back to normal people</a>
 </body>
 </html>

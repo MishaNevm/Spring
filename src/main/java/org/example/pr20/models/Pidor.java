@@ -3,7 +3,7 @@ package org.example.pr20.models;
 public class Pidor {
     private String name;
     private String prostupok;
-    private int prostupukRating;
+    private String prostupokRating;
     private int id;
 
     public String getName() {
@@ -22,12 +22,12 @@ public class Pidor {
         this.prostupok = prostupok;
     }
 
-    public int getProstupukRating() {
-        return prostupukRating;
+    public String getProstupokRating() {
+        return prostupokRating;
     }
 
-    public void setProstupukRating(int prostupukRating) {
-        this.prostupukRating = prostupukRating;
+    public void setProstupokRating(String prostupokRating) {
+        this.prostupokRating = prostupokRating;
     }
 
     public int getId() {
