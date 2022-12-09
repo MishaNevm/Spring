@@ -1,6 +1,6 @@
-package org.example.ls20.dao;
+package org.example.ls21.dao;
 
-import org.example.ls20.models.People;
+import org.example.ls21.models.People;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -33,5 +33,13 @@ public class PeopleDAO {
 
     public People getPerson(int id) {
         return peopleList.stream().filter(a -> a.getId() == id).findFirst().orElse(null);
+    }
+
+    public void edit(int id, People person) {
+        peopleList.get(id - 1).setName(person.getName());
+    }
+
+    public void delete(int id) {
+        peopleList.removeIf(a -> a.getId() == id);
     }
 }

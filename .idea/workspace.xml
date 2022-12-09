@@ -10,16 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ls20/controllers/PeopleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ls20/dao/PeopleDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ls20/models/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/getPeoples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/getPerson.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/master/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls20/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/master/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls20/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/dao/PeopleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/dao/PeopleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/models/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/models/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/getPerson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/getPerson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +187,7 @@
       <workItem from="1670082101288" duration="86000" />
       <workItem from="1670346437528" duration="3042000" />
       <workItem from="1670352622325" duration="2846000" />
+      <workItem from="1670604311596" duration="4657000" />
     </task>
     <servers />
   </component>

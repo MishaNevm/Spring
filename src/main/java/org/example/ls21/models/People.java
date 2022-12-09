@@ -1,4 +1,4 @@
-package org.example.ls20.models;
+package org.example.ls21.models;
 
 public class People {
     private int id;
