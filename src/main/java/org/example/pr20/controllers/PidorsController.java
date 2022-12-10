@@ -25,18 +25,37 @@ public class PidorsController {
         model.addAttribute("pidors", pidorsDAO.getPidorList());
         return "pidor/getPidors";
     }
-    @GetMapping("/pidor{id}")
-    public String getPidor (@PathVariable("id") int id, Model model) {
+
+    @GetMapping("/{id}")
+    public String getPidor(@PathVariable("id") int id, Model model) {
         model.addAttribute("pidor", pidorsDAO.getPidor(id));
         return "pidor/getPidor";
     }
+
     @GetMapping("/newpidor")
-    public String addPidor (@ModelAttribute("pidor")Pidor pidor) {
+    public String addPidor(@ModelAttribute("pidor") Pidor pidor) {
         return "pidor/newPidor";
     }
+
     @PostMapping
-    public String add (@ModelAttribute("pidor") Pidor pidor) {
+    public String add(@ModelAttribute("pidor") Pidor pidor) {
         pidorsDAO.addPidor(pidor);
+        return "redirect:/pidors";
+    }
+
+    @GetMapping("/{id}/edit")
+    public String edit (@PathVariable("id") int id, Model model) {
+        model.addAttribute("pidor", pidorsDAO.getPidor(id));
+        return "pidor/edit";
+    }
+    @PatchMapping("/{id}")
+    public String editPathMethod (@ModelAttribute("pidor") Pidor pidor) {
+        pidorsDAO.edit(pidor);
+        return "redirect:/pidors";
+    }
+    @DeleteMapping("/{id}")
+    public String delete (@PathVariable("id") int id){
+        pidorsDAO.delete(id);
         return "redirect:/pidors";
     }
 }

@@ -9,7 +9,12 @@
 <p th:text="${pidor.getProstupok()}">VALUE</p>
 <p th:text="${pidor.getProstupokRating}">VALUE</p>
 <p th:text="${pidor.getId()}"></p>
-<a href="/pidors/newpidor">Add pidor</a>
+<br/>
+<hr/>
+<a th:href="@{/pidors/{id}/edit (id=${pidor.getId()})}">Edit</a>
+<form th:method="DELETE" th:action="@{/pidors/{id}(id=${pidor.getId()})}">
+    <input type="submit" value="Delete"/>
+</form>
 <br/>
 <a href="/pidors">Back</a>
 </body>

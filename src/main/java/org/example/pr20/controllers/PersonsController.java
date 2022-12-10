@@ -21,7 +21,7 @@ public class PersonsController {
 
     @GetMapping()
     public String showAllPerson(Model model) {
-        model.addAttribute("persons",personDAO.getPersonList());
+        model.addAttribute("persons", personDAO.getPersonList());
         return "person/showAllPerson";
     }
 
@@ -35,9 +35,28 @@ public class PersonsController {
     public String blankNewPerson(@ModelAttribute("person") Person person) {
         return "person/new";
     }
+
     @PostMapping
     public String addNewPerson(@ModelAttribute("person") Person person) {
         personDAO.addPerson(person);
+        return "redirect:/person";
+    }
+
+    @GetMapping("/{id}/edit")
+    public String edit(@PathVariable("id") int id, Model model) {
+        model.addAttribute("person", personDAO.getPerson(id));
+        return "person/edit";
+    }
+
+    @PatchMapping("/{id}")
+    public String editPatchMethod (@ModelAttribute("person") Person person){
+        personDAO.edit(person);
+        return "redirect:/person";
+    }
+
+    @DeleteMapping("/{id}")
+    public String delete (@PathVariable("id") int id) {
+        personDAO.delete(id);
         return "redirect:/person";
     }
 
