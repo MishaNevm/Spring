@@ -1,6 +1,6 @@
 package org.example.ls21.dao;
 
-import org.example.ls21.models.People;
+import org.example.ls21.models.Person;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -9,37 +9,37 @@ import java.util.List;
 @Component
 public class PeopleDAO {
 
-    private final List<People> peopleList;
+    private final List<Person> personList;
     private static int PEOPLE_COUNTER = 0;
 
     {
 
-        peopleList = new ArrayList<>(List.of(
-                new People(++PEOPLE_COUNTER, "Misha"),
-                new People(++PEOPLE_COUNTER, "Anya"),
-                new People(++PEOPLE_COUNTER, "Sasha"),
-                new People(++PEOPLE_COUNTER, "Nikol")
+        personList = new ArrayList<>(List.of(
+                new Person(++PEOPLE_COUNTER, "Misha"),
+                new Person(++PEOPLE_COUNTER, "Anya"),
+                new Person(++PEOPLE_COUNTER, "Sasha"),
+                new Person(++PEOPLE_COUNTER, "Nikol")
         ));
     }
 
-    public List<People> getPeoples() {
-        return peopleList;
+    public List<Person> getPeoples() {
+        return personList;
     }
 
-    public void addPerson(People people) {
-        people.setId(++PEOPLE_COUNTER);
-        peopleList.add(people);
+    public void addPerson(Person person) {
+        person.setId(++PEOPLE_COUNTER);
+        personList.add(person);
     }
 
-    public People getPerson(int id) {
-        return peopleList.stream().filter(a -> a.getId() == id).findFirst().orElse(null);
+    public Person getPerson(int id) {
+        return personList.stream().filter(a -> a.getId() == id).findFirst().orElse(null);
     }
 
-    public void edit(int id, People person) {
-        peopleList.get(id - 1).setName(person.getName());
+    public void edit(int id, Person person) {
+        personList.get(id - 1).setName(person.getName());
     }
 
     public void delete(int id) {
-        peopleList.removeIf(a -> a.getId() == id);
+        personList.removeIf(a -> a.getId() == id);
     }
 }

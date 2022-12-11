@@ -10,14 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fd026c-3cf0-4a86-9d5c-603041688511" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/dao/PeopleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/dao/PeopleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls20/models/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/models/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/getPerson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/getPerson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls21/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls21/dao/PeopleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/dao/PeopleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ls21/models/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ls21/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.22873563&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;9ee73a619ab951bc1735a0ca393f7fac&quot;
@@ -87,7 +86,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="c20644c5-bd58-4cfc-8429-73be0a01bfbf" />
+        <option name="BASE_DIRECTORY_NAME" value="5ee9df45-6d4e-4149-8f5c-7df45b61c61a" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -95,7 +94,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51343" />
+        <option name="DEBUG_PORT" value="57557" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -188,6 +187,9 @@
       <workItem from="1670346437528" duration="3042000" />
       <workItem from="1670352622325" duration="2846000" />
       <workItem from="1670604311596" duration="4657000" />
+      <workItem from="1670774785290" duration="9384000" />
+      <workItem from="1670784672035" duration="1373000" />
+      <workItem from="1670786294210" duration="1734000" />
     </task>
     <servers />
   </component>

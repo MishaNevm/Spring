@@ -1,15 +1,21 @@
 package org.example.ls21.models;
 
-public class People {
+
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
+
+public class Person {
     private int id;
+    @NotEmpty(message = "name should be not empty")
+    @Size(min = 2, max = 30, message = "q")
     private String name;
 
-    public People() {
+    public Person() {
+        id = 0;
+        name = null;
     }
 
-    public People(int id, String name) {
-        this.id = id;
-        this.name = name;
+    public Person(int id, String name) {
     }
 
     public void setId(int id) {
