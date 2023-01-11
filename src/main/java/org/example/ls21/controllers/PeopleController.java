@@ -1,13 +1,10 @@
 package org.example.ls21.controllers;
 
-
-import jakarta.validation.Valid;
 import org.example.ls21.dao.PeopleDAO;
 import org.example.ls21.models.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -44,11 +41,7 @@ public class PeopleController {
     }
 
     @PostMapping
-    public String createPostMethod(@ModelAttribute("person") @Valid Person person, BindingResult bindingResult) {
-        System.out.println(bindingResult.hasErrors());
-        if (bindingResult.hasErrors()) {
-            return "people/new";
-        }
+    public String createPostMethod(@ModelAttribute("person")Person person) {
         peopleDAO.addPerson(person);
         return "redirect:/people";
     }
@@ -60,10 +53,7 @@ public class PeopleController {
     }
 
     @PatchMapping("/{id}")
-    public String editPatchMethod(@Valid @ModelAttribute("person") Person person, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
-            return "people/edit";
-        }
+    public String editPatchMethod(@ModelAttribute("person") Person person) {
         peopleDAO.edit(person.getId(), person);
         return "redirect:/people";
     }
