@@ -1,4 +1,4 @@
-package org.example.master.config;
+package org.example.ls23.config;
 
 
 import org.springframework.web.filter.HiddenHttpMethodFilter;
